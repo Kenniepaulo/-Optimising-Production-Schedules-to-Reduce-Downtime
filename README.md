@@ -1,25 +1,77 @@
+Optimising Production Schedules to Reduce Downtime
 Tools: SQL Server, Power BI
+Project Type: Operational Analytics / Manufacturing Efficiency
+Organisation: GreenTech Manufacturing
 
-This project looks at factory downtime and production delays in a sustainable manufacturing company. I used SQL to clean and join four main tables: products, line productivity, downtime logs, and downtime factors. I calculated run times, delay minutes, and planned versus actual hours. I then used Power BI to build dashboards showing downtime patterns across products, causes, operators, and calendar days.
+Overview
+This project analyses production and downtime data to understand why manufacturing batches frequently run behind schedule. Using SQL for data preparation and Power BI for reporting, the analysis identifies the main causes of delays, highlights high‑risk product lines, and provides recommendations to improve factory efficiency.
+
+Objectives
+Analyse downtime events and classify root causes
+
+Identify products with the highest disruption rates
+
+Compare planned vs actual production hours
+
+Assess operator workload and scheduling conflicts
+
+Build dashboards for operational visibility
+
+Recommend actions to reduce downtime and improve throughput
+
+Data Sources
+Products: Standard run times and product details
+
+Line Productivity: Batch records and operator assignments
+
+Line Downtime: Logged interruptions with timestamps
+
+Downtime Factors: Categorised reasons for delays
 
 Key Findings
-More than half of all production batches had delays.
+56% of all batches experienced delays, resulting in 21+ lost production days.
 
-Most downtime came from cleaning, material shortages, and scheduling overlaps.
+69% of downtime came from process issues, not operator errors.
 
-Operator errors were not the main issue.
+Cleaning, material shortages, scheduling overlaps, and machine breakdowns were the top delay drivers.
 
-GreenFoam Hand Soap had the highest number of downtime events.
+GreenFoam Hand Soap had the highest downtime (323 events).
 
-Actual run times were longer than planned times across all product lines.
+Actual run times exceeded planned times across all product lines, showing unrealistic scheduling assumptions.
 
-What I Did
-Cleaned and prepared SQL tables.
+Technical Work
+Built SQL views to calculate run‑time variance, downtime minutes, and batch‑level metrics.
 
-Built SQL views for run‑time and downtime calculations.
+Cleaned and joined multiple tables to create a unified analytical dataset.
 
-Created Power BI dashboards for downtime, products, operators, and schedules.
+Designed Power BI dashboards covering downtime trends, product impact, operator performance, and scheduling conflicts.
 
-Highlighted root causes and high‑risk product lines.
+Recommendations
+Implement automated low‑stock inventory alerts
 
-Suggested improvements for inventory, cleaning windows, maintenance, and scheduling.
+Add realistic cleaning windows to production plans
+
+Shift to preventive maintenance scheduling
+
+Replace manual spreadsheets with automated scheduling tools
+
+Balance operator workload based on product complexity
+
+Expected Impact
+Reduced downtime and fewer production interruptions
+
+More accurate schedules and improved delivery timelines
+
+Lower operational costs and overtime
+
+Better visibility for managers through interactive dashboards
+
+Project Files
+SQL Code: Greentech_Project_Kehinde_Akinbile.sql
+
+Power BI Dashboard: PowerBI/Kehinde_Akinbile_GreenTech_Project.pbix
+
+Project Document: GreenTech Production Schedule Optimisation.pdf
+
+GitHub Link
+https://github.com/Kenniepaulo/Optimising-Production-Schedules-to-Reduce-Downtime
