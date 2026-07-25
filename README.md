@@ -74,4 +74,4 @@ Power BI Dashboard: PowerBI/Kehinde_Akinbile_GreenTech_Project.pbix
 Project Document: GreenTech Production Schedule Optimisation.pdf
 
 GitHub Link
-https://github.com/Kenniepaulo/Optimising-Production-Schedules-to-Reduce-Downtime
+https://github.com/Kenniepaulo/-Optimising-Production-Schedules-to-Reduce-Downtime
